@@ -1,0 +1,260 @@
+*{
+  margin: 0px;
+  padding: 0px;
+ 
+}
+
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #e9e9e9;
+  }
+  
+  .topnav a {
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  .topnav .search-container {
+    float: left;
+  }
+    #mySidenav a {
+
+      position: absolute;
+      direction: rtl;
+      left:-170px;  
+      transition: 0.3s;
+      padding:15px;
+      width: 200px;
+      text-decoration: none;
+      font-size: 20px;
+      color: white;
+      border-radius: 0 6px 6px 0;
+      }
+
+   #mySidenav a:hover {
+      left: 0;
+      }
+
+      
+  #about {
+          top:45px;
+          background-color: #f44336;
+          }
+
+          #blog {
+          top:115px;
+          background-color: #555555;
+           }
+      
+  
+  .topnav .search-container a {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: rgb(159, 230, 177);
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .topnav .search-container a:hover {
+      background:#012e52;
+
+  } 
+  @media screen and (max-width: 600px) {
+    .topnav .search-container {
+      float: none;
+    }
+    .topnav a, .topnav .topnav .search-container  {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .topnav input[type=text] {
+      border: 1px solid #ccc;  
+    }
+         
+  #about {
+          top:139px;
+          }
+
+          #blog {
+          top:200px;
+           }
+      
+  }
+  
+  /*  
+  الستيل الخاص باستمارة اضافة نزيل 
+  وتسجيل نزيل بشكل مباشر في قاعدة البيانات الاساسية 
+
+*/
+#long{
+ background-color: #494a4ba9;
+ width:500px;
+ height:60%;
+ margin-top:5%;
+ margin-bottom:5%;
+ margin-right:auto;
+ margin-left: auto;
+ display: block;
+ overflow: hidden;
+ font-size:14px;
+ border-radius:2px;
+ border-style:solid;
+ border-width: 0.5px;
+ border-color: #02060c;
+}
+#long >h2 {
+    text-align: center;
+    margin-top:3%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form > p {
+    display: inline;
+    font-size: 14px;
+    margin-right: 2%;
+    margin-left:3%;
+}
+.far3 , .select-in {
+    width:180px;
+    height: 30px;
+    border-radius: 12px;
+    border-style:double;
+    border-color: rgb(0, 0, 46);
+    margin:5% 5%;
+    margin-right:7%;
+    background-color: #c5d6f0;
+}
+.s-input {
+    text-align: center;
+    width:260px;
+    height: 30px;
+    border-radius:5px;
+    border-style:double;
+    margin:5% 5%;
+    margin-right:7%;
+}
+.s-input0{
+            text-align:center; 
+            border-radius:12px;
+            border-style:double;
+            border-color: rgb(0, 0, 46);}
+.s-input1 { margin-right:12%;}
+.inputtext {
+    width:205px ;
+    margin-right:2%;
+    margin-bottom:2%;
+    color: rgb(43, 0, 51);
+    font-size:16px;
+}
+.inputtext:hover {
+    color: rgb(90, 3, 172);
+    font-size:17px;
+    border-style:inset ;
+    border-color: rgb(13, 1, 194);
+    border-width:0.5px ;
+    box-shadow: #6363fd 0px 0px 7px 2px;
+}
+.sub {
+    text-align:center;
+    font-size: 14;
+    width: 130px;
+    height:35px;
+    margin-top:5%;
+    margin-bottom:5%;
+    margin-right:15%;
+    border-radius:5px;
+    border: none;
+    background-color:#0b5ed7;
+    color:#ffffff;
+}
+.sub:hover{
+    background-color:#0543a0;
+    font-size:16px;
+} 
+.subexe{  background-color:#048029;}
+.subexe:hover { background-color: #07ce43;}
+
+@media(max-width:500px) {
+    #long{
+        width:300px; 
+        text-align: center;} 
+    .far3 , .select-in {
+        width:200px; 
+        height: 30px;
+        margin:5% 5%;} 
+    .s-input0{
+            text-align:center; 
+            margin-right:2%;}
+    .inputtext {
+                width:250px ;
+                margin-right:0px;
+                margin-bottom:1.5%;
+               font-size:18px;}
+    .sub {
+                font-size: 14;
+                width: 230px;
+                height:35px;
+                margin-top:2.5%;
+                margin-right: 0px;
+                margin-bottom:2.5%;}
+}
+
+@media(max-width:300px) {
+    #long{
+        width:200px; 
+        text-align: center;} 
+    .far3 , .select-in {
+        width:100px; 
+        height: 30px;
+        margin:5% 5%;} 
+    .s-input0{
+        width: 150px;
+            text-align:center; 
+            margin-right:2%;}
+    .inputtext {
+                width:185px ;
+                margin-right:0px;
+                margin-bottom:1.5%;
+               font-size:18px;}
+    .sub {
+                font-size: 14;
+                width: 100px;
+                height:35px;
+                margin-top:2.5%;
+                margin-right: 0px;
+                margin-bottom:2.5%;}
+}
+
+  
+
+
+
+footer{
+overflow: hidden;
+width: 100%;
+height:30px;
+background-color: rgb(154, 158, 165);
+position: absolute;
+bottom:0% ;
+}

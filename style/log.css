@@ -1,0 +1,53 @@
+#bodylog { 
+    display: block;
+    overflow: hidden;
+   /* background-color: rgba(8, 1, 15, 0.459); */
+   background-image:url(../img/2.png) ;
+   background-repeat: no-repeat;
+    height:400px;
+    width: 360px;
+    direction: rtl;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 50%;
+    border-radius: 20;
+    
+}
+.textInput1 {
+ border-top-left-radius:40px;
+ border-bottom-right-radius:40px;
+ width: 300px;
+ height: 30px;
+ margin-top:60px;
+ margin-bottom:0px;
+ text-align: center;
+ background-color: rgb(253, 255, 255);
+ color: rgb(54, 6, 131);
+ font-size: 18px;
+ box-shadow:  cornsilk 6px -1px 20px 0px ;
+
+}
+.textInput2 {
+    border-top-left-radius:40px;
+    border-bottom-right-radius:40px;
+    width: 300px;
+    height: 30px;
+    margin-top:40px;
+    margin-bottom:0px;
+    text-align: center;
+    background-color: rgb(253, 255, 255);
+    color: rgb(54, 6, 131);
+    font-size: 18px;
+    box-shadow: cornsilk 0px 2px 12px 0px ;
+}
+
+.buttonSend { 
+    background-color: rgb(12, 59, 160);
+
+    border: none;
+    border-radius:30px;
+    width: 150px;
+    height: 40px;
+    margin-top:40px;
+
+ }
