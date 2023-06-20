@@ -11,8 +11,6 @@ content.classList.toggle("voo")
 })
 
 
-
-
 var swiper = new Swiper(".mySwiper", {
     effect: "coverflow",
     grabCursor: true,
